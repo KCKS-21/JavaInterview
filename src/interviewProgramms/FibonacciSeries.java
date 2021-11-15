@@ -14,12 +14,12 @@ public class FibonacciSeries {
 
 		int x = 0;
 		int y = 1;
-		System.out.print((x+" "+y));
-		
-		for (int i = 1; i <= n-2; i++) {
+		System.out.print((x + " " + y));
+
+		for (int i = 1; i <= n - 2; i++) {
 
 			int z = x + y;
-			System.out.print(" "+z);
+			System.out.print(" " + z);
 			x = y;
 			y = z;
 		}
