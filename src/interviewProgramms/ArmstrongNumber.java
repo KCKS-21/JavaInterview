@@ -7,7 +7,7 @@ public class ArmstrongNumber {
 	public static void main(String[] args) {
 
 		Scanner sa = new Scanner(System.in);
-		System.out.println("eneter number");
+		System.out.println("enter number");
 
 		int n = sa.nextInt();
 		int temp = n;
